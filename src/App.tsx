@@ -49,8 +49,7 @@ const App:FC = () => {
       resetCurrentUser()
     }
   },[editing,resetCurrentUser])
-  console.log("searchName",searchName);
-  
+
   //-----------------------对话框部分-----------------------//
  
   return (
