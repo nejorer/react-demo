@@ -32,7 +32,7 @@ export  default function useQueryFilter(){
         (user) => {
             console.log("useQueryFilterTest addUser");
             setQueryFilter((preState)=>{
-                console.log("preState",preState);
+                console.log("preState",preState,user);
                 
                 return {
                     ...preState,
