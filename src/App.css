@@ -1,0 +1,8 @@
+.header h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.content{
+    padding: 24px;
+}
