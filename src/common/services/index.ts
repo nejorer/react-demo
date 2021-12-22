@@ -2,7 +2,7 @@
 import {QueryFilter} from '../types'
 import axios from 'axios';
 import '../mock/mock.js'
-const url = "http://localhost:3001/"
+const url = "http://101.43.135.172:3001/"
 
 export async function getStrategyTable(queryFilter: QueryFilter){
     // const result = await axios.get(url+'api/users')
