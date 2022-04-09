@@ -49,6 +49,8 @@ const App:FC = () => {
       resetCurrentUser()
     }
   },[editing,resetCurrentUser])
+  console.log("测试git");
+  
 
   //-----------------------对话框部分-----------------------//
  
